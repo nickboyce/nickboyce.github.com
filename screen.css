@@ -1,0 +1,92 @@
+/* CSS Document */
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+	margin: 10px;
+	color: #333;
+	background: #eee;
+}
+
+a {
+	color: #333;
+}	
+
+li a, li span {
+	background-color: #FFFFFF;
+	color: #333;
+}
+
+a:hover {
+	color: #FFFFFF;
+	background-color: #bf34bf;
+}
+
+ul {
+	padding: 5px 0 5px 0;
+	margin: 0 0 0 10px;
+}	
+
+li {
+	padding: 0 0 0 0;
+	margin: 0 0 0 10px;
+}	
+
+h1, h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+}	
+
+/*h1 {
+  font-size: 72px;
+  margin: 0 0 10px 0;
+}
+
+h2 {
+  font-size: 14px;
+}*/
+
+.new {
+	text-transform: uppercase;
+	font-size: x-small;
+	background-color: #ffc;
+	color: #660000;
+}
+
+
+.note {
+	text-transform: uppercase;
+	font-size: x-small;
+	color: #666666;
+	background-color: #ffccff;
+}
+
+div.note {
+	background-color: #E0E0E0;
+	padding: 5px;
+}
+
+.highlight {
+	background-color: #ffccff;
+}
+
+#leftColumn {
+	float: left;
+	width: 33%;
+	border: 0px solid #333;
+}	
+
+#leftColumn p.intro {
+	font-size: 24px;
+}
+
+
+#leftColumn p {
+	margin: 0 0 15px 0;
+}	
+
+#rightColumn {
+	float: right;
+	width: 30%;
+	border: 0px solid #333;
+	color: white;
+}
