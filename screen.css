@@ -1,8 +1,8 @@
 /* CSS Document */
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-	margin: 10px;
+  font-family: 'Signika', sans-serif;
+	margin: 20px 0;
 	color: #333;
 	background: #eee;
 }
@@ -12,15 +12,17 @@ a {
 }	
 
 h1, h2 {
-	font-family: Georgia, "Times New Roman", Times, serif;
 	font-weight: normal;
+	margin: 0;
 }
 
 .highlight {
 	background-color: #ffccff;
 }
 
-.body {
+div.body {
   width: 400px;
-/*  margin: 0 auto;*/
+  padding: 20px;
+  margin: 0 auto;
+  background: white;
 }
