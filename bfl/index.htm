@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Bat For Lashes lyric generator</title>
+	<script language="javascript">
+		var material = ["pearl", "marble", "bloody", "crystal", "diamond", "bone", "feather", "leather", "gold", "glass", "water", "fire", "earth", "emerald", "ruby", "sapphire", "crimson", "snow", "sand"];
+		var adjective = ["flickering", "giant", "shadowy", "glistening", "black", "hopeful", "cold", "kissing", "burning", "shiny", "dark", "bright", "blinding", "nervous", "crippled", "sharp", "quiet", "blonde", "dirty", "deathly", "pretty", "lunar"];
+		var object = ["necklace", "rain", "hair", "mirror", "word", "wind", "amulet", "goblet", "horse", "tear", "pendant", "spear", "staff", "ocean", "armor", "shield", "leaf", "sun", "moon", "star", "cape", "suit", "rainbow", "soul", "heart", "trophy", "coat", "wood", "tree", "headdress", "river", "fur", "sword", "night", "door", "eyes", "robe", "body", "blood", "star", "arrow", "comb", "bat", "cave", "comet", "mouth", "teeth", "lighthouse", "tattoo", "boat", "claw", "dress", "ashes", "candle"];
+		var animal = ["swan", "bat", "bird", "seal", "whale", "dog", "horse", "shark", "eagle"];
+		var place = ["house", "kingdom", "home", "ark", "sky", "jungle", "tower", "city", "sea", "heaven", "highway", "ocean", "world", "forest", "castle", "bedroom", "chamber", "womb"];
+		var person = ["teacher","hunter", "lover", "knight", "spirit", "wizard", "king", "queen", "husband", "son", "daughter", "child", "sweetheart", "father", "giant", "girl", "boy", "lady", "angel"];
+		var names = ["daniel", "priscilla", "carrie", "sarah"];
+		var ly = ["wistfully", "knowingly", "longingly", "achingly", "sadly"];
+		var verb = ["sleepwalking", "fading", "shining", "falling", "battling", "losing", "listening", "dreaming", "running", "breathing", "crying", "looking", "riding", "wearing", "dancing", "singing", "longing", "kissing", "flying", "sharing", "holding", "burning", "tasting", "traveling", "trembling", "sleeping", "laying", "diving", "dying", "fishing", "loving", "sacrifice"];
+		var verbs = ["fades", "shines", "falls", "battles", "loses", "listens", "dreams", "runs", "breathes", "cries", "looks", "rides", "wears", "dances", "sings", "longs", "kisses", "flies", "shares", "holds", "burns", "tastes", "travels", "trembles", "sleeps", "lies", "dives", "dies", "fishes", "loves", "loveth", "sacrifices"];
+		var ness = ["sadness", "happiness"];
+		var emotion = ["sad", "happy", "lonely", "scared"]
+		var seasons = ["winter", "spring", "autumn", "summer"];
+		var proverbs = ["he", "she", "it", "they"];
+		var owner = ["his", "her", "your", "our", "their", "my"]
+		var colours = ["blue", "red", "white", "black", "silver", "gold", "green"]
+		var lines = ["The " + getWord(adjective) + " " + getWord(object) + " " +  getWord(verbs) + " " + getWord(ly),
+					"A " + getWord(material) + " " + getWord(object) + " " + getWord(verbs)  + ", " + getWord(emotion) + " with " + getWord(owner) + " " + getWord(object),
+					"The " +  getWord(animal)  + " of the " +  getWord(place) + " " + getWord(verbs) + " and " + getWord(verbs),
+					"the " + getWord(person) + " " + getWord(verbs) + ", " + getWord(adjective) + " as a " + getWord(adjective) + " " + getWord(object),
+					"Your " + getWord(adjective) + " " + getWord(material) + " " + getWord(verbs) + " into the " + getWord(place),
+			 		"A thousand " + getWord(material) + " " + getWord(place) + "s, " + getWord(verb) + " " + getWord(ly),
+					"We are " + getWord(verb) + " together, made of " + getWord(material )+ " " + getWord(object) + "s",
+					"Give me my " + getWord(person) + ", give me my " + getWord(person),
+					"The smell of " + getWord(object, true) + " and " + getWord(object, true),
+					getWord(verb) + ". " + getWord(verb) + ". " + getWord(verb) + ".",
+					"You remind me of " + getWord(verb) + " in the " + getWord(place),
+					"Bring the " + getWord(colours) + " " + getWord(animal) + " to my " + getWord(place),
+					"Painting a picture of a " + getWord(adjective) + " " + getWord(object),
+					"Watching the " + getWord(animal) + " descend on the " + getWord(place)]	
+		
+		
+		function getWord(array, pluralise) {
+			var i = Math.floor(Math.random()*(array.length));
+			var s = array.splice(array[i], 1);
+			pluralise ? s += "s" : null;
+			return s;
+		}
+
+	</script>
+	<style>
+		body {
+			background: #fff url(bat-for-lashes.jpeg) fixed left bottom no-repeat;
+			font-family: arial, helvetica, sans-serif;
+			font-size: 80%;
+		}
+		h1 {
+			font-size: 100%;
+			font-weight: normal;
+			text-transform: uppercase;
+		}
+		#lyrics {
+			margin: 100px 20px 0 350px;
+			text-align: center;
+			
+			
+		}
+		#lyrics #lyric {
+			padding: 10px 0;
+			margin: 30px 0;
+			border-top: 1px dotted #ccc;
+			border-bottom: 1px dotted #ccc;
+			color: black;
+			font-size: 200%;
+			font-family: georgia;
+			font-style: italic;
+			text-transform: none;
+		}	
+		#lyrics, #lyrics a {
+			color: #666;
+		}
+		#lyrics i {
+			font-size: 90%;
+			font-family: georgia;
+			text-transform: none;
+		}
+	</style>	
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-19580741-2']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</head>
+<body>
+	<div id="lyrics">
+		<h1>Bat For Lashes lyric generator</h1>
+		<div id="lyric">
+			<script language="javascript">
+				document.write("<p>" + lines.splice(Math.floor(Math.random()*lines.length), 1) + "</p>");
+				document.write("<p>" + lines.splice(Math.floor(Math.random()*lines.length), 1) + "</p>");
+			</script>
+		</div>
+		<p><a href="#" onclick="window.location.reload();">Give me another!</a>
+		<p>- <i>or</i> - 
+		<p><a href="http://nickboyce.com">Go Back</a>
+	</div>	
+</body>
+</html>
