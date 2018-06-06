@@ -1,8 +1,8 @@
 /* CSS Document */
 
 body {
-  font-family: 'Signika', sans-serif;
-  margin: 20px 0;
+	font-family: 'Signika', sans-serif;
+	margin: 15px;
   color: #333;
 	background: #eee;
 }
@@ -20,8 +20,8 @@ h1, h2 {
 }
 
 div.body {
-  width: 400px;
-  padding: 20px;
+  max-width: 400px;
+  padding: 15px;
   margin: 0 auto;
   background: white;
 }
