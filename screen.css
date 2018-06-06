@@ -5,6 +5,7 @@ body {
 	margin: 15px;
   color: #333;
 	background: #eee;
+	font-size: 18px;
 }
 
 a {
@@ -20,7 +21,7 @@ h1, h2 {
 }
 
 div.body {
-  max-width: 400px;
+  max-width: 600px;
   padding: 15px;
   margin: 0 auto;
   background: white;
