@@ -2,8 +2,8 @@
 
 body {
   font-family: 'Signika', sans-serif;
-	margin: 20px 0;
-	color: #333;
+  margin: 20px 0;
+  color: #333;
 	background: #eee;
 }
 
@@ -13,7 +13,6 @@ a {
 
 h1, h2 {
 	font-weight: normal;
-	margin: 0;
 }
 
 .highlight {
