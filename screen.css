@@ -4,20 +4,21 @@ body {
 	font-family: 'Signika', sans-serif;
 	margin: 15px;
   color: #333;
-	background: #eee;
+	background: #e1f1f5;
 	font-size: 18px;
 }
 
 a {
 	color: #333;
-}	
+}
 
 h1, h2 {
 	font-weight: normal;
 }
 
 .highlight {
-	background-color: #ffccff;
+	background-color: #fffbcc;
+	padding: 0.5em;
 }
 
 div.body {
